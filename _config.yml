@@ -1,3 +1,11 @@
+title: "Quarter 2 Project Brainstorm"
+description: "DSC180 Quarter 2 Project Brainstorm"
+
 remote_theme: pages-themes/midnight@v0.2.0
+
+url: "https://javomode.github.io"
+baseurl: "/DSC180-Methodology-4"
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-seo-tag
