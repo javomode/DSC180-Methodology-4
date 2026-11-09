@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Quarter 2 Project Brainstorm</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Quarter 2 Project Brainstorm" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Quarter 2 Project Brainstorm" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"Quarter 2 Project Brainstorm","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#353535">
+<meta name="msapplication-navbutton-color" content="#353535">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <ul>
+            <li class="fork"><a href="">View On GitHub</a></li>
+            
+          </ul>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1></h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href=""></a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+        </div>
+
+        <h1 id="quarter-2-project-brainstorm">Quarter 2 Project Brainstorm</h1>
+
+<p><strong>Name:</strong> Jaden Vo<br />
+<strong>Email:</strong> j9vo@ucsd.edu<br />
+<strong>Section:</strong> D-32 — Steering Diffusion Models<br />
+<strong>Mentor:</strong> Professor Yusu Wang</p>
+
+<h3 id="1-what-is-the-most-interesting-topic-covered-in-your-domain-this-quarter">1. What is the most interesting topic covered in your domain this quarter?</h3>
+
+<p>The most interesting topic covered so far has been learning how to steer diffusion models toward specific outputs. In particular, I find it interesting how PCA and Recursive Feature Machines (RFM) can be used to identify patterns in the data and use them to guide the generation process.</p>
+
+<p>My understanding is that PCA can identify important directions in the model’s representations, especially at high noise levels, which can then be used to influence what the model generates. RFM provides another way to learn useful features and potentially capture more complex patterns in the data. I think it is interesting how these methods can give us more control over what diffusion models generate rather than simply relying on the original conditioning of the model.</p>
+
+<h3 id="2-describe-a-potential-investigation-you-would-like-to-pursue-for-your-quarter-2-project">2. Describe a potential investigation you would like to pursue for your Quarter 2 Project.</h3>
+
+<p>One potential investigation I would like to pursue is using diffusion models to generate synthetic data for testing real-world systems.</p>
+
+<p>More specifically, I am interested in whether steering techniques can help generate realistic anomalies based on patterns in existing datasets. These synthetic examples could represent unusual situations that a system might encounter but that are not well represented in its original training data.</p>
+
+<p>For example, this could be useful for testing anomaly detection systems and seeing how well they identify unexpected patterns. It could also help test how well systems handle data that they have not seen before. Although this idea is still fairly broad, I think it would be interesting to explore how diffusion models could be used to generate more controlled and realistic synthetic data.</p>
+
+<h3 id="3-what-is-a-potential-change-youd-make-to-the-approach-taken-in-your-current-quarter-1-project">3. What is a potential change you’d make to the approach taken in your current Quarter 1 Project?</h3>
+
+<p>Since our Quarter 1 Project was largely determined by our professor, I would be interested in moving away from image generation and exploring other applications of diffusion models.</p>
+
+<p>I am not particularly interested in image generation, and I would like to see how diffusion models can be applied to other types of data, such as time series or tabular data. One reason for this is that evaluating generated images can sometimes be subjective, especially when judging their quality or similarity to a target image. I would rather work on something where we can evaluate the results using more objective measurements, such as accuracy or other quantitative metrics.</p>
+
+<h3 id="4-what-other-techniques-would-you-be-interested-in-using-in-your-project">4. What other techniques would you be interested in using in your project?</h3>
+
+<p>I am not entirely sure what additional techniques I would want to use yet, since the methods we are currently exploring are still relatively new to me. I would first like to better understand PCA and NA-RFM steering before trying to introduce something new.</p>
+
+<p>If I had to choose, I would be interested in exploring autoencoders as an alternative to PCA. While PCA mainly captures linear patterns in data, autoencoders can learn more complex, nonlinear patterns. Although they would likely require more computation, they might be able to capture more information about the data and potentially improve the steering process. I think comparing the two approaches could be interesting.</p>
+
+
+      </section>
+
+    </div>
+  </body>
+</html>
